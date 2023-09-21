@@ -21,6 +21,7 @@
                             <li><a href="#inicio"  (click)="seleccionar(this)">INICIO</a></li>
                             <li><a href="#sobremi" (click)="seleccionar(this)">SOBRE MI</a></li>
                             <li><a href="#servicios" (click)="seleccionar(this)">SERVICIOS</a></li>
+                            <li><a href="#habilidades" (click)="seleccionar(this)">HABILIDADES</a></li>
                             <li><a href="#portafolio" (click)="seleccionar(this)">CERTIFICACIONES</a><li>
                             <li><a href="#contacto" (click)="seleccionar(this)">CONTACTO</a></li>
                         </ul>
@@ -73,8 +74,8 @@
                 <h4>Desarrollo y Buenas Prácticas</h4>
                 <hr>
                 <ul class="servicios-tag">
-                    <li>HTML</li>
-                    <li>CSS</li>
+                    <li>.Net</li>
+                    <li>C#</li>
                     <li>JS</li>
                     <li>GIT</li>
                     <li>Angular</li>
@@ -83,10 +84,11 @@
                 <p>
                     <b>Diseño de Interfaz de Usuario (UI):</b> Crear la estructura y el diseño visual de la interfaz de usuario utilizando HTML para la estructura, CSS para el estilo y JavaScript para la interacción.
                     <b>Desarrollo Frontend:</b> Implementar la lógica del lado del cliente utilizando JavaScript para mejorar la interactividad y la experiencia del usuario en la aplicación web.
+                    <b>Desarrollo Backend:</b> Utilizar C# para desarrollar la lógica del lado del servidor, gestionar la comunicación con bases de datos y realizar tareas de procesamiento.
                     <b>Estilización y Diseño:</b> Aplicar estilos visuales, responsive design y diseños atractivos utilizando CSS para mejorar la apariencia general de la aplicación.
-                    <b>Gestión de Eventos:</b> Utilizar JavaScript para manejar eventos y acciones del usuario, como clics, entradas y cambios en la página.
+                    <b>Gestión de Eventos:</b> Manejar eventos y acciones del usuario, como clics, entradas y cambios en la página utilizando JS y C#.
                     <b>Control de Versiones:</b> Utilizar Git para rastrear y gestionar cambios en el código fuente, permitiendo la colaboración y la recuperación de versiones anteriores.
-                    <b>Arquitectura de Aplicaciones:</b> Diseñar la estructura general de la aplicación utilizando Angular, definiendo componentes, rutas y módulos para una organización efectiva.
+                    <b>Arquitectura de Aplicaciones:</b> Diseñar la estructura general de la aplicación utilizando Angular y .Net, definiendo componentes, rutas y módulos.
                 </p>
             </div>
             <div class="servicio">
@@ -136,44 +138,54 @@
     </section>
 
     <!--SECCION HABILIDADES-->
-    <div class="contenedor-skills" id="skills">
-        <h3 class="titulo-seccion">HABILIDADES</h3>
-        <div class="skill">
-            <div class="info">
-                <p><span class="lista"></span>Html & Css</p>
-                <span class="porcentaje">95%</span>
-            </div>
-            <div class="barra">
-                <div id="html" class="barra-progreso1">
+    <section id="habilidades">
+        <div class="contenedor-skills" id="skills">
+            <h3 class="titulo-seccion">HABILIDADES</h3>
+            <div class="skill">
+                <div class="info">
+                    <p><span class="lista"></span>C# .Net</p>
+                    <span class="porcentaje">90%</span>
+                </div>
+                <div class="barra">
+                    <div id="html" class="barra-progreso0">
+                    </div>
+                </div>
+
+                <div class="info">
+                    <p><span class="lista"></span>Html & Css</p>
+                    <span class="porcentaje">95%</span>
+                </div>
+                <div class="barra">
+                    <div id="html" class="barra-progreso1">
+                    </div>
+                </div>
+
+                <div class="info">
+                    <p><span class="lista"></span>Javascript & Typscript</p>
+                    <span class="porcentaje">85%</span>
+                </div>
+                <div class="barra">
+                    <div id="js" class="barra-progreso2"></div>
+                </div>
+
+                <div class="info">
+                    <p><span class="lista"></span>Procesamiento de Datos</p>
+                    <span class="porcentaje">90%</span>
+                </div>
+                <div class="barra">
+                    <div id="bd" class="barra-progreso3"></div>
+                </div>
+
+                <div class="info">
+                    <p><span class="lista"></span>Gestión de Proyectos</p>
+                    <span class="porcentaje">95%</span>
+                </div>
+                <div class="barra">
+                    <div id="certificados" class="barra-progreso4"></div>
                 </div>
             </div>
-
-            <div class="info">
-                <p><span class="lista"></span>Javascript & Typscript</p>
-                <span class="porcentaje">85%</span>
-            </div>
-            <div class="barra">
-                <div id="js" class="barra-progreso2"></div>
-            </div>
-
-            <div class="info">
-                <p><span class="lista"></span>Procesamiento de Datos</p>
-                <span class="porcentaje">90%</span>
-            </div>
-            <div class="barra">
-                <div id="bd" class="barra-progreso3"></div>
-            </div>
-
-            <div class="info">
-                <p><span class="lista"></span>Gestión de Proyectos</p>
-                <span class="porcentaje">95%</span>
-            </div>
-            <div class="barra">
-                <div id="certificados" class="barra-progreso4"></div>
-            </div>
         </div>
-    </div>
-
+    </section>
     <!--SECCION PORTAFOLIO / CERTIFICACIONES -->
     <section id="portafolio">
         <h3 class="titulo-seccion">MIS CERTIFICACIONES</h3>

@@ -342,6 +342,13 @@ html {
 }
 
         /* BARRAS DE PROGRESO */
+.contenedor-skills .skill .barra .barra-progreso0 {
+    background-color: #fff;
+    width: 90%;
+    height: 6px;
+    animation: progreso0 2s forwards;
+}
+
 .contenedor-skills .skill .barra .barra-progreso1 {
     background-color: #fff;
     width: 95%;
@@ -367,6 +374,14 @@ html {
     animation: progreso4 2s forwards;
 }
         /* ANIMACIONES DE LAS BARRAS*/
+@keyframes progreso0 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 90%;
+    }
+}
 @keyframes progreso1 {
     0% {
         width: 0;
@@ -569,6 +584,7 @@ footer #redes a:hover {
     nav.responsive ul li {
         margin: 5px 0;
     }
+
     #icono-nav {
         display: block;
     }
