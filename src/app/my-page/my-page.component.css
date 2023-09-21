@@ -541,6 +541,10 @@ footer #redes a:hover {
     color: #ff5080;
 }
 
+#redes_responsive{
+    display: none;
+}
+
 /* SECCIÓN DE RESPONSIVE */
 @media screen and (max-width:800px) {
     #redes {
@@ -636,4 +640,38 @@ footer #redes a:hover {
         width: 100%;
         margin-bottom: 15px;
     }
+
+    /* SECCION REDES RESPONSIVE */
+
+#redes_responsive {
+    display: flex;
+    flex-direction: column;
+    max-width: 1100px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-size: x-large;
+}
+
+#redes_responsive .titulo-seccion {
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #111135;
+    text-decoration: underline;
+    text-decoration-color: #d3d3d3;
+    text-decoration-thickness: 5px;
+}
+
+#redes_responsive #div_redes_responsive a {
+    color: #000;
+    margin: 0 12px;
+    font-weight: 400;
+    transition: .5s;
+}
+
+#redes_responsive #div_redes_responsive a:hover {
+    color: #ff5080;
+}
 }
